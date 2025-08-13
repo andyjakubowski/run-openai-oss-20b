@@ -1,11 +1,15 @@
 from transformers import pipeline
 import torch
+from config import HF_MODEL_ID, HF_REVISION
 
-model_id = "openai/gpt-oss-20b"
+print("Model ID:", HF_MODEL_ID)
+print("Model revision: ", HF_REVISION)
+
 
 pipe = pipeline(
     "text-generation",
-    model=model_id,
+    model=HF_MODEL_ID,
+    revision=HF_REVISION,
     torch_dtype="auto",
     device_map="auto",
 )
