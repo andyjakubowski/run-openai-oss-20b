@@ -138,15 +138,6 @@ wheels = [
 ]
 
 [[package]]
-name = "iniconfig"
-version = "2.1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f2/97/ebf4da567aa6827c909642694d71c9fcf53e5b504f2d96afea02718862f3/iniconfig-2.1.0.tar.gz", hash = "sha256:3abbd2e30b36733fee78f9c7f7308f2d0050e88f0087fd25c2645f63c773e1c7", size = 4793, upload-time = "2025-03-19T20:09:59.721Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl", hash = "sha256:9deba5723312380e77435581c6bf4935c94cbfab9b1ed33ef8d238ea168eb760", size = 6050, upload-time = "2025-03-19T20:10:01.071Z" },
-]
-
-[[package]]
 name = "jinja2"
 version = "3.1.4"
 source = { registry = "https://pypi.org/simple" }
@@ -380,15 +371,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pluggy"
-version = "1.6.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f9/e2/3e91f31a7d2b083fe6ef3fa267035b518369d9511ffab804f839851d2779/pluggy-1.6.0.tar.gz", hash = "sha256:7dcc130b76258d33b90f61b658791dede3486c3e6bfb003ee5c9bfb396dd22f3", size = 69412, upload-time = "2025-05-15T12:30:07.975Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl", hash = "sha256:e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746", size = 20538, upload-time = "2025-05-15T12:30:06.134Z" },
-]
-
-[[package]]
 name = "psutil"
 version = "7.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -401,31 +383,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/eb/a2/709e0fe2f093556c17fbafda93ac032257242cabcc7ff3369e2cb76a97aa/psutil-7.0.0-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a5f098451abc2828f7dc6b58d44b532b22f2088f4999a937557b603ce72b1993", size = 279544, upload-time = "2025-02-13T21:54:24.68Z" },
     { url = "https://files.pythonhosted.org/packages/50/e6/eecf58810b9d12e6427369784efe814a1eec0f492084ce8eb8f4d89d6d61/psutil-7.0.0-cp37-abi3-win32.whl", hash = "sha256:ba3fcef7523064a6c9da440fc4d6bd07da93ac726b5733c29027d7dc95b39d99", size = 241053, upload-time = "2025-02-13T21:54:34.31Z" },
     { url = "https://files.pythonhosted.org/packages/50/1b/6921afe68c74868b4c9fa424dad3be35b095e16687989ebbb50ce4fceb7c/psutil-7.0.0-cp37-abi3-win_amd64.whl", hash = "sha256:4cf3d4eb1aa9b348dec30105c55cd9b7d4629285735a102beb4441e38db90553", size = 244885, upload-time = "2025-02-13T21:54:37.486Z" },
-]
-
-[[package]]
-name = "pygments"
-version = "2.19.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887", size = 4968631, upload-time = "2025-06-21T13:39:12.283Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b", size = 1225217, upload-time = "2025-06-21T13:39:07.939Z" },
-]
-
-[[package]]
-name = "pytest"
-version = "8.4.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "colorama", marker = "sys_platform == 'win32'" },
-    { name = "iniconfig" },
-    { name = "packaging" },
-    { name = "pluggy" },
-    { name = "pygments" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/08/ba/45911d754e8eba3d5a841a5ce61a65a685ff1798421ac054f85aa8747dfb/pytest-8.4.1.tar.gz", hash = "sha256:7c67fd69174877359ed9371ec3af8a3d2b04741818c51e5e99cc1742251fa93c", size = 1517714, upload-time = "2025-06-18T05:48:06.109Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/29/16/c8a903f4c4dffe7a12843191437d7cd8e32751d5de349d45d3fe69544e87/pytest-8.4.1-py3-none-any.whl", hash = "sha256:539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7", size = 365474, upload-time = "2025-06-18T05:48:03.955Z" },
 ]
 
 [[package]]
@@ -508,7 +465,6 @@ dependencies = [
     { name = "torch", version = "2.8.0+cu129", source = { registry = "https://download.pytorch.org/whl/cu129" }, marker = "sys_platform == 'linux'" },
     { name = "transformers" },
     { name = "triton" },
-    { name = "triton-kernels" },
 ]
 
 [package.metadata]
@@ -517,9 +473,8 @@ requires-dist = [
     { name = "kernels", specifier = ">=0.9.0" },
     { name = "torch", marker = "sys_platform != 'linux'", specifier = ">=2.8.0", index = "https://download.pytorch.org/whl/cpu" },
     { name = "torch", marker = "sys_platform == 'linux'", specifier = ">=2.8.0", index = "https://download.pytorch.org/whl/cu129" },
-    { name = "transformers", specifier = ">=4.55.0" },
-    { name = "triton", specifier = ">=3.4.0" },
-    { name = "triton-kernels", git = "https://github.com/triton-lang/triton.git?subdirectory=python%2Ftriton_kernels&rev=main" },
+    { name = "transformers", specifier = "==4.55.2" },
+    { name = "triton", specifier = "==3.4.0" },
 ]
 
 [[package]]
@@ -685,7 +640,7 @@ wheels = [
 
 [[package]]
 name = "transformers"
-version = "4.55.0"
+version = "4.55.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "filelock" },
@@ -699,9 +654,9 @@ dependencies = [
     { name = "tokenizers" },
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/27/5d/f7dc746eef83336a6b34197311fe0c1da0d1192f637c726c6a5cf0d83502/transformers-4.55.0.tar.gz", hash = "sha256:15aa138a05d07a15b30d191ea2c45e23061ebf9fcc928a1318e03fe2234f3ae1", size = 9569089, upload-time = "2025-08-05T16:13:48.997Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/70/a5/d8b8a1f3a051daeb5f11253bb69fc241f193d1c0566e299210ed9220ff4e/transformers-4.55.2.tar.gz", hash = "sha256:a45ec60c03474fd67adbce5c434685051b7608b3f4f167c25aa6aeb1cad16d4f", size = 9571466, upload-time = "2025-08-13T18:25:43.767Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1c/93/bcb22fb52ed65084c0199270832aa4cdd4b41296d896f3e7ade188bccb68/transformers-4.55.0-py3-none-any.whl", hash = "sha256:29d9b8800e32a4a831bb16efb5f762f6a9742fef9fce5d693ed018d19b106490", size = 11267905, upload-time = "2025-08-05T16:13:34.814Z" },
+    { url = "https://files.pythonhosted.org/packages/db/5a/022ac010bedfb5119734cf9d743cf1d830cb4c604f53bb1552216f4344dc/transformers-4.55.2-py3-none-any.whl", hash = "sha256:097e3c2e2c0c9681db3da9d748d8f9d6a724c644514673d0030e8c5a1109f1f1", size = 11269748, upload-time = "2025-08-13T18:25:40.394Z" },
 ]
 
 [[package]]
@@ -714,15 +669,6 @@ dependencies = [
 wheels = [
     { url = "https://files.pythonhosted.org/packages/30/7b/0a685684ed5322d2af0bddefed7906674f67974aa88b0fae6e82e3b766f6/triton-3.4.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:00be2964616f4c619193cb0d1b29a99bd4b001d7dc333816073f92cf2a8ccdeb", size = 155569223, upload-time = "2025-07-30T19:58:44.017Z" },
     { url = "https://files.pythonhosted.org/packages/20/63/8cb444ad5cdb25d999b7d647abac25af0ee37d292afc009940c05b82dda0/triton-3.4.0-cp313-cp313t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:7936b18a3499ed62059414d7df563e6c163c5e16c3773678a3ee3d417865035d", size = 155659780, upload-time = "2025-07-30T19:58:51.171Z" },
-]
-
-[[package]]
-name = "triton-kernels"
-version = "1.0.0"
-source = { git = "https://github.com/triton-lang/triton.git?subdirectory=python%2Ftriton_kernels&rev=main#f7d267442b8e7c1bd27d6881cd9ae67e551f245c" }
-dependencies = [
-    { name = "numpy" },
-    { name = "pytest" },
 ]
 
 [[package]]
