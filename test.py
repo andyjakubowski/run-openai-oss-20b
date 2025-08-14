@@ -1,5 +1,4 @@
 from transformers import pipeline
-import torch
 from config import HF_MODEL_ID, HF_REVISION
 
 print("Model ID:", HF_MODEL_ID)
