@@ -2,6 +2,7 @@ from transformers import pipeline
 from constants import MODEL_ID
 from settings import settings
 
+
 def main():
     print("Model ID:", MODEL_ID)
     # Pin the model revision to ensure reproducibility and prevent unexpected downloads once the model is in the HF cache

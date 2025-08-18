@@ -14,6 +14,11 @@ dependencies = [
     "triton==3.4.0",
 ]
 
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+]
+
 [tool.uv]
 python-preference="only-managed"
 
@@ -32,3 +37,4 @@ explicit = true
 name = "pytorch-cu129"
 url = "https://download.pytorch.org/whl/cu129"
 explicit = true
+
