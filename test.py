@@ -1,14 +1,15 @@
 from transformers import pipeline
-from constants import HF_MODEL_ID, HF_REVISION
+from constants import MODEL_ID
+from settings import settings
 
-print("Model ID:", HF_MODEL_ID)
+print("Model ID:", MODEL_ID)
 # Pin the model revision to ensure reproducibility and prevent unexpected downloads once the model is in the HF cache
-print("Model revision: ", HF_REVISION)
+print("Model revision: ", settings.model_revision)
 
 pipe = pipeline(
     "text-generation",
-    model=HF_MODEL_ID,
-    revision=HF_REVISION,
+    model=MODEL_ID,
+    revision=settings.model_revision,
     torch_dtype="auto",
     device_map="auto",
 )
